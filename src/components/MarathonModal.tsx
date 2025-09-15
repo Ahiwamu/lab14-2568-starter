@@ -15,7 +15,6 @@ import {
 import { useForm } from "@mantine/form";
 import { useMarathonFormStore } from "../store/MarathonFormStore";
 import { zod4Resolver } from "mantine-form-zod-resolver";
-import { z } from "zod";
 import { marathonSchema } from "../zod/MarathonSchema";
 import { useEffect, useState } from "react";
 import { type MarathonModalProps } from "../libs/Marathon";
